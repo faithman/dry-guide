@@ -78,8 +78,6 @@
         
             <li><a class="toctree-l4" href="#projects">Projects</a></li>
         
-            <li><a class="toctree-l4" href="#running_interactive_jobs_on_quest">Running interactive jobs on Quest</a></li>
-        
         </ul>
     
 
@@ -137,11 +135,6 @@
     <a class="" href="../pipeline-cegwas/">Cegwas</a>
                 </li>
     </ul>
-	    </li>
-          
-            <li class="toctree-l1">
-		
-    <a class="" href="../cendr/">CeNDR</a>
 	    </li>
           
             <li class="toctree-l1">
@@ -211,7 +204,6 @@
 <li><a href="#login_nodes">Login Nodes</a></li>
 <li><a href="#home_directory">Home Directory</a></li>
 <li><a href="#projects">Projects</a></li>
-<li><a href="#running_interactive_jobs_on_quest">Running interactive jobs on Quest</a></li>
 </ul>
 </li>
 </ul>
@@ -248,15 +240,6 @@
 <p>The Andersen lab has access to two projects.</p>
 <p><strong>b1042</strong> - The 'Genomics' Project has 155 Tb of space and 100 nodes associated with it. This space is shared with other labs and is designed for temporary use only (covered in greater detail in the Nextflow Section). The space is available at <code>/projects/b1042/AndersenLab/</code>. By default, files are deleted after 30 days.</p>
 <p><strong>b1059</strong> - The Andersen Lab Project. <strong>b1059</strong> does not have any nodes associated with it, but it does have 10 Tb of storage. b1059 storage is located at: <code>/projects/b1059/</code>.</p>
-<h3 id="running_interactive_jobs_on_quest">Running interactive jobs on Quest<a class="headerlink" href="#running_interactive_jobs_on_quest" title="Permanent link">&para;</a></h3>
-<p>If you are running a few simple commands or want to experiment with files directly you can start an interactive session on Quest. The command below will give you access to a node where you can run your commands</p>
-<pre><code>msub -I -A b1042
-</code></pre>
-
-<div class="admonition important">
-<p class="admonition-title">Important</p>
-<p>Do not run commands on <code>quser11-13</code>. These are login nodes and are not meant for running heavy-load workflows.</p>
-</div>
               
             </div>
           </div>
@@ -281,18 +264,18 @@
 
   Built with <a href="http://www.mkdocs.org">MkDocs</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
 </footer>
-      
+	  
         </div>
       </div>
 
     </section>
-
+    
   </div>
 
   <div class="rst-versions" role="note" style="cursor: pointer">
     <span class="rst-current-version" data-toggle="rst-current-version">
       
-          <a href="https://github.com/Andersenlab/dry-guide/" class="fa fa-github" style="float: left; color: #fcfcfc"> GitHub</a>
+          <a href="https://github.com/Andersenlab/dry-guide" class="fa fa-github" style="float: left; color: #fcfcfc"> GitHub</a>
       
       
         <span><a href="../bash/" style="color: #fcfcfc;">&laquo; Previous</a></span>
@@ -302,10 +285,7 @@
       
     </span>
 </div>
-    <script>var base_url = '..';</script>
     <script src="../js/theme.js"></script>
-      <script src="../search/require.js"></script>
-      <script src="../search/search.js"></script>
 
 </body>
 </html>
